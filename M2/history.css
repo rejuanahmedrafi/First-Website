@@ -1,0 +1,42 @@
+.adam{
+    color: aliceblue;
+    background-color: cornflowerblue;
+    border: 10px solid blue;
+    border-radius: 10px;
+    padding: 10px;
+    width: 30%;
+    height: 10%;
+    display: inline-block;
+
+}
+.ibrahim{
+    color: aliceblue;
+    background-color: darkcyan;
+    border: 10px solid blue;
+    border-radius: 10px;
+    margin-left: 10px ;
+    padding: 10px;
+    width: 30%;
+    height: 10%;
+    display: inline-block;
+}
+.musa{
+    color: aliceblue;
+    background-color: darkolivegreen;
+    border: 10px solid blue;
+    border-radius: 10px;
+    margin-left: 10px ;
+    padding: 10px;
+    width: 30%;
+    height: 10%;
+    display: inline-block;
+}
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+p{
+    text-align: justify;
+}
