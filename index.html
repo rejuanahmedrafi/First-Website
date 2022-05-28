@@ -10,7 +10,7 @@
             height: 70px;
             width: 100%;
             text-align: center;
-            border-radius: 10px;
+            border-radius: 50px;
         }
         p{
             color: #0a570add;
@@ -27,22 +27,42 @@
         }
         .inline-block{
             display: inline-block;
-            background-color: darkolivegreen;
+            background-color: #0aae90;
             width: 100%;
             text-align: center;
+        }
+        .block_design{
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            padding: 8px 16px;
+            background-color: #fffa6ffa;
+            border-radius: 20px;
+        }
+        .block_design:hover{
+            color: red;
+        }
+        .Religion:hover{
+            color: darkgreen;
+            font-size: 50px;
+        }
+        .center {
+             display: block;
+             margin-left: auto;
+             margin-right: auto;
+             width: 50%;
         }
 
     </style>
 </head>
 <body>
     <div class="inline-block">
-    <h2><a href="index.html">Home</a>
-    <a href="history.html">History</a>
-    <a href="population.html">Population</a>
-    <a href="https://en.wikipedia.org/wiki/Religion">Wikipedia</a></h2>
+    <h2><a href="index.html" class="block_design">Home</a>
+    <a href="history.html" class="block_design">History</a>
+    <a href="population.html" class="block_design">Population</a>
+    <a href="https://en.wikipedia.org/wiki/Religion" class="block_design">Wikipedia</a></h2>
 </div>
-    <h1>World Religion</h1>
+    <h1 class="Religion">World Religion</h1>
     <p>Religion is usually defined as a social-cultural system of designated behaviors and practices, morals, beliefs, worldviews, texts, sanctified places, prophecies, ethics, or organizations, that generally relates humanity to supernatural, transcendental, and spiritual elements;[1] however, there is no scholarly consensus over what precisely constitutes a religion.</p>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/RELIGIONES.png" alt="">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/RELIGIONES.png" class="center">
 </body>
 </html>
